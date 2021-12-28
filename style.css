@@ -1,0 +1,24 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+input,textarea,label,table{
+    font-family: 'Itim', cursive;
+}
+.container{
+
+    background: linear-gradient(rgba(220, 137, 252, 0.29),rgba(0, 128, 126, 0.304));
+    border-radius:10px;
+    box-shadow: #006fba85 6px 3px 15px 3px;
+    transition: ease-in-out .7s;
+    /* cursor: pointer; */
+}
+.container:hover{
+    transform: scale(1.01);
+
+}
+.container h1{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
